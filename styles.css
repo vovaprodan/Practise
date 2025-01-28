@@ -1,3 +1,8 @@
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: grid;
     place-items: center;
@@ -43,9 +48,13 @@
 }
 
 .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
     width: 1170px;
     padding: 0 115px;
-
+    margin-right: auto;
+    margin-left: auto;
 
 }
 .nav {
@@ -110,4 +119,15 @@
 .block-section {
     width: 410px;
     padding: 30px 30px 67px 30px;
+}
+
+.second-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.info {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 25px;
 }
